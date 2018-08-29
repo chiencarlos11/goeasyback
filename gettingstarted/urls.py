@@ -12,6 +12,5 @@ import core.views
 
 urlpatterns = [
     url(r'^$', core.views.index, name='index'),
-    url(r'^db', hello.views.db, name='db'),
     path('admin/', admin.site.urls),
 ]
